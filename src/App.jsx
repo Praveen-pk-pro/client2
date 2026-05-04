@@ -5,7 +5,10 @@ function App() {
     <>
       <header className="bg-[#F4F1DE] dark:bg-slate-900 border-b border-[#E07A5F]/10 dark:border-slate-800 shadow-[0_4px_20px_-4px_rgba(224,122,95,0.05)] sticky top-0 z-50 w-full font-newsreader tracking-tight">
         <div className="max-w-7xl mx-auto flex justify-between items-center py-6 px-6 md:px-12">
-          <a className="text-2xl font-bold text-[#E07A5F] dark:text-orange-400" href="#">Sri Baba Charitable Trust</a>
+          <a className="flex items-center gap-3 text-2xl font-bold text-[#E07A5F] dark:text-orange-400" href="#">
+            <img src="/images/logo.jpg" alt="Sri Baba Charitable Trust Logo" className="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover shadow-sm" />
+            <span>Sri Baba Charitable Trust</span>
+          </a>
           <nav className="hidden md:flex gap-8 items-center">
             <a className="text-[#E07A5F] dark:text-orange-400 font-bold border-b-2 border-[#E07A5F] pb-1 hover:text-[#E07A5F] dark:hover:text-orange-300 transition-all duration-300 active:scale-95" href="#">Home</a>
             <a className="text-slate-700 dark:text-slate-300 font-medium hover:text-[#E07A5F] dark:hover:text-orange-300 transition-all duration-300 active:scale-95" href="#">Our Work</a>
